@@ -567,10 +567,10 @@ figure.effect-bubba:hover p {
 		          <ul class="nav navbar-nav navbar-right">
 		            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
 		            <li><a href="#" data-nav-section="services"><span>What we do</span></a></li>
-		            <li><a href="https://www.youtube.com/" ><span>Research & Tutorials</span></a></li>
-		            <li><a href="https://www.facebook.com/"><span>Blog</span></a></li>
-		            <li><a href="#" data-nav-section="test"><span>Malware DB(IOC)</span></a></li>
-		            <li><a href="#" data-nav-section="about"><span>About</span></a></li>
+		            <li><a href="http://research.cyberyodha.com" onclick="window.open('http://research.cyberyodha.com')"><span>Research & Tutorials</span></a></li>
+		            <li><a href="http://blog.cyberyodha.com" onclick="window.open('http://blog.cyberyodha.com')"><span>Blog</span></a></li>
+		            <li><a href="http://malwaredb.cyberyodha.com" onclick="window.open('http://malwaredb.cyberyodha.com')"><span>Malware DB(IOC)</span></a></li>
+		            <!-- <li><a href="#" data-nav-section="about"><span>About</span></a></li> -->
 		            <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
 		          </ul>
 		        </div>
@@ -936,7 +936,7 @@ We have deep expertise in providing Security testing services to our global ente
 		</div>
 	</section>
 	
-	<section id="fh5co-about" data-section="about">
+<!-- 	<section id="fh5co-about" data-section="about">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
@@ -990,8 +990,8 @@ We have deep expertise in providing Security testing services to our global ente
 				</div>
 			</div>
 		</div>
-	</section>
-	
+	</section> -->
+<!-- 	
 	<section id="fh5co-counters" style="background-image: url(images/full_image_1.jpg);" data-stellar-background-ratio="0.5">
 		<div class="fh5co-overlay"></div>
 		<div class="container">
@@ -1031,7 +1031,7 @@ We have deep expertise in providing Security testing services to our global ente
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<section id="fh5co-contact" data-section="contact">
 		<div class="container">
@@ -1051,41 +1051,43 @@ We have deep expertise in providing Security testing services to our global ente
 					<ul class="fh5co-contact-info">
 						<li class="fh5co-contact-address ">
 							<i class="icon-home"></i>
-							5555 Love Paradise 56 New Clity 5655, <br>Excel Tower United Kingdom
+							619, 20th Cross Rd Thimaiah Garden, <br>Devara Jeevanahalli Bengaluru, <br>Karnataka 560032
 						</li>
-						<li><i class="icon-phone"></i> (123) 465-6789</li>
-						<li><i class="icon-envelope"></i>info@freehtml5.co</li>
-						<li><i class="icon-globe"></i> <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></li>
+						<!-- <li><i class="icon-phone"></i> (123) 465-6789</li> -->
+						<li><i class="icon-envelope"></i>info@cyberyodha.com</li>
+						<!-- <li><i class="icon-globe"></i> <a href="http://freehtml5.co/" target="_blank">www.</a></li> -->
 					</ul>
 				</div>
 
 				<div class="col-md-6 to-animate">
+					<form name="contactform" method="post" action="send_form_email.php">
 					<h3>Contact Form</h3>
 					<div class="form-group ">
 						<label for="name" class="sr-only">Name</label>
-						<input id="name" class="form-control" placeholder="Name" type="text">
+						<input id="name" class="form-control" placeholder="Name" type="text" name="name">
 					</div>
 					<div class="form-group ">
 						<label for="email" class="sr-only">Email</label>
-						<input id="email" class="form-control" placeholder="Email" type="email">
+						<input id="email" class="form-control" placeholder="Email" type="email" name="email">
 					</div>
 					<div class="form-group ">
 						<label for="phone" class="sr-only">Phone</label>
-						<input id="phone" class="form-control" placeholder="Phone" type="text">
+						<input id="phone" class="form-control" placeholder="Phone" type="text" name="telephone" maxlength="10" size="10">
 					</div>
 					<div class="form-group ">
 						<label for="message" class="sr-only">Message</label>
-						<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+						<textarea id="comments" cols="30" rows="5" class="form-control" placeholder="Message" name="comments"></textarea>
 					</div>
 					<div class="form-group ">
 						<input class="btn btn-primary btn-lg" value="Send Message" type="submit">
 					</div>
+				</form>
 					</div>
 				</div>
 
 			</div>
 		</div>
-		<div id="map" class="to-animate"></div>
+		<!-- <div id="map" class="to-animate"></div> -->
 	</section>
 	
 	
@@ -1094,7 +1096,7 @@ We have deep expertise in providing Security testing services to our global ente
 		<div class="container">
 			<div class="">
 				<div class="col-md-12 text-center">
-					<p>&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a></p>
+					<p>2018 &copy; Cyber Yodha | All Rights Reserved.</p>
 					
 				</div>
 			</div>
